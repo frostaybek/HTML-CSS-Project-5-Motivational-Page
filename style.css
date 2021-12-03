@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: calibri;
+    color: white;
+}
+
+body{
+    height: 100vh;
+}
+
+video{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+}
+
+p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+}
+
+button{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 42px;
+    width: 120px;
+    background-color: rgb(179, 54, 179);
+}
+
+button:hover{
+    background-color: rgb(128, 54, 128);
+}
+
+button:active{
+    background-color: rgb(71, 42, 71);
+}
